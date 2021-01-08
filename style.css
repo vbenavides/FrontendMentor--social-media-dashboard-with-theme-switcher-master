@@ -104,7 +104,7 @@ html {
 }
 .card__container {
   height: 220px;
-  margin-top: 20px;
+  margin-top: 25px;
   border-radius: 5px;
   background-color: var(--dark-desaturated-blue-card-bg);
   display: flex;
@@ -136,26 +136,94 @@ html {
 .card__yt-border {
   border-top: 5px solid var(--youtube);
 }
+.card__title-container {
+  display: flex;
+  padding-top: 8px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .card__name-profile {
+  margin-left: 8px;
   color: var(--desaturated-blue-text);
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.2rem;;
 }
 .card__numbers-container{
   display: flex;
   flex-direction: column;
 }
 .card__numbers {
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-weight: 700;
 }
 .card__numbers-description {
   font-weight: 400;
   color: var(--desaturated-blue-text);
   font-size: 1.3rem;
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.5rem;
+}
+.icon-arrow-up {
+  vertical-align: middle;
+  padding: 0 5px;
+}
+.icon-arrow-down {
+  vertical-align: middle;
+  padding: 0 5px;
 }
 .card__numbers-today {
   font-weight: 700;
   font-size: 1.2rem;
+}
+.card__numbers-today-wtext {
+  color: var(--white-text);
+}
+.card__numbers-today-gtext {
+  color: var(--lime-green);
+}
+.card__numbers-today-rtext {
+  color: var(--bright-red);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.overview-container {
+  display: flex;
+  flex-direction: column;
+}
+.overview-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 325px;
+  height: 130px;
+  margin-top: 16px;
+  background-color: var(--dark-desaturated-blue-card-bg);
+  padding: 0 30px;
+  border-radius: 5px;
+}
+.overview-title, .overview-numbers {
+  display: flex;
+  justify-content: space-between;
+}
+.overview-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--desaturated-blue-text);
+}
+.overview-numbers {
+  font-weight: 700;
+  font-size: 2.9rem;
+}
+.overview-porcent {
+  /* font-weight: 400; */
+  font-size: 1.2rem;
+  display: flex;
+  /* align-items: flex-end; */
+  align-items: center;
 }
